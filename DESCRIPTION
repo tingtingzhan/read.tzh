@@ -1,0 +1,18 @@
+Package: read.tzh
+Type: Package
+Title: Read Data from csv, txt and xlsx Files
+Version: 0.1.0
+Date: 2024-01-15
+Author: Tingting Zhan [aut, cre, cph]
+Maintainer: Tingting Zhan <tingtingzhan@gmail.com>
+Description: To read data from csv, txt and xlsx files.
+License: GPL-2
+Encoding: UTF-8
+Imports: data.table, readxl
+Authors@R: c(person(given = "Tingting", family = "Zhan",
+      role = c("aut", "cre", "cph"), email =
+      c("tingtingzhan@gmail.com")))
+Language: en-US
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.3.0)
+RoxygenNote: 7.3.2
