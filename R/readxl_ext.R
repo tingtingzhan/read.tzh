@@ -12,11 +12,11 @@
 #' @param pattern regular expression, pattern of the names of sheets to be selected
 #' 
 #' @details 
-#' Function [read_excel_all] ..
+#' Function [read_excel_all()] ..
 #' 
-#' Function [read_excel_sheets] ..
+#' Function [read_excel_sheets()] ..
 #' 
-#' Function [read_excel_pattern] ..
+#' Function [read_excel_pattern()] ..
 #' 
 #' @note 
 #' \link[readxl]{read_excel} returns (a \link[base]{list} of) \link[tibble]{tibble} object(s). 
@@ -45,7 +45,7 @@ read_excel_pattern <- function(path = stop(), pattern, ...) {
   if (length(sseq) == 1L) return(read_excel(path = path, sheet = sseq, ...))
   
   names(sseq) <- sht_nm[idx]
-  lapply(sseq, FUN = function(i) {
+  lapply(sseq, FUN = \(i) {
     cat('Sheet', sQuote(sht_nm[i]), '\n')
     read_excel(path = path, sheet = i, ...)
   })
@@ -70,7 +70,7 @@ read_excel_sheets <- function(path = stop(), sheets, ...) {
   if (length(sheets) == 1L) return(read_excel(path = path, sheet = sheets, ...))
     
   names(sheets) <- sht_nm[sheets]
-  lapply(sheets, FUN = function(i) {
+  lapply(sheets, FUN = \(i) {
     cat('Sheet', sQuote(sht_nm[i]), '\n')
     read_excel(path = path, sheet = i, ...)
   })
@@ -88,7 +88,7 @@ read_excel_all <- function(path = stop(), ...) {
 
   sseq <- seq_along(sht_nm)
   names(sseq) <- sht_nm
-  lapply(sseq, FUN = function(i) {
+  lapply(sseq, FUN = \(i) {
     cat('Sheet', sQuote(sht_nm[i]), '\n')
     read_excel(path = path, sheet = i, ...)
   })

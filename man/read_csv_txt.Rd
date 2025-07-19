@@ -21,5 +21,5 @@ read_txt(file, header = TRUE, ...)
 ..
 }
 \note{
-\link[data.table]{fread} returns \link[data.table]{data.table} object
+Function \link[data.table]{fread} returns \link[data.table]{data.table} object
 }

@@ -24,11 +24,11 @@ read_excel_all(path = stop(), ...)
 ..
 }
 \details{
-Function \link{read_excel_all} ..
+Function \code{\link[=read_excel_all]{read_excel_all()}} ..
 
-Function \link{read_excel_sheets} ..
+Function \code{\link[=read_excel_sheets]{read_excel_sheets()}} ..
 
-Function \link{read_excel_pattern} ..
+Function \code{\link[=read_excel_pattern]{read_excel_pattern()}} ..
 }
 \note{
 \link[readxl]{read_excel} returns (a \link[base]{list} of) \link[tibble]{tibble} object(s).

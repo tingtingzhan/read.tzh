@@ -11,7 +11,7 @@
 #' @param ... ..
 #' 
 #' @note 
-#' \link[data.table]{fread} returns \link[data.table]{data.table} object
+#' Function \link[data.table]{fread} returns \link[data.table]{data.table} object
 #' 
 #' @importFrom data.table fread
 #' @importFrom utils read.csv
@@ -24,9 +24,9 @@ read_csv <- function(file, header = TRUE, ...) {
 
 
 
+#' @rdname read_csv_txt
 #' @importFrom data.table fread
 #' @importFrom utils read.table
-#' @rdname read_csv_txt
 #' @export
 read_txt <- function(file, header = TRUE, ...) {
   if (file.size(file) < 2e6) return(read.table(file = file, header = header, ...))
