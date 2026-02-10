@@ -11,5 +11,5 @@ Authors@R: c(person(given = "Tingting", family = "Zhan",
 Language: en-US
 Roxygen: list(markdown = TRUE)
 Depends: R (>= 4.5), readxl (== 1.4.5)
-Imports: data.table (== 1.17.8)
-RoxygenNote: 7.3.2
+Imports: data.table (== 1.18.2.1)
+RoxygenNote: 7.3.3

@@ -13,6 +13,7 @@
 #' @note 
 #' Function \link[data.table]{fread} returns \link[data.table]{data.table} object
 #' 
+#' @keywords internal
 #' @importFrom data.table fread
 #' @importFrom utils read.csv
 #' @name read_csv_txt

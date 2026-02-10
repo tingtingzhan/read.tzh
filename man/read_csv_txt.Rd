@@ -23,3 +23,4 @@ read_txt(file, header = TRUE, ...)
 \note{
 Function \link[data.table]{fread} returns \link[data.table]{data.table} object
 }
+\keyword{internal}
