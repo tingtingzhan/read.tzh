@@ -19,7 +19,7 @@
 #' Function [read_excel_pattern()] ..
 #' 
 #' @note 
-#' \link[readxl]{read_excel} returns (a \link[base]{list} of) \link[tibble]{tibble} object(s). 
+#' The function \link[readxl]{read_excel} returns (a \link[base]{list} of) \link[tibble]{tibble} object(s). 
 #' 
 #' Name clash \link[officer]{read_xlsx} and \link[readxl]{read_xlsx}.
 #' 
