@@ -16,7 +16,7 @@ read_excel_all(path = stop(), ...)
 \arguments{
 \item{path, ...}{parameters of \link[readxl]{read_excel}}
 
-\item{pattern}{regular expression, pattern of the names of sheets to be selected}
+\item{pattern}{\link[base]{regex}, pattern of the names of sheets to be selected}
 
 \item{sheets}{\link[base]{integer} \link[base]{vector}}
 }
@@ -24,11 +24,11 @@ read_excel_all(path = stop(), ...)
 ..
 }
 \details{
-Function \code{\link[=read_excel_all]{read_excel_all()}} ..
+The function \code{\link[=read_excel_all]{read_excel_all()}} ..
 
-Function \code{\link[=read_excel_sheets]{read_excel_sheets()}} ..
+The function \code{\link[=read_excel_sheets]{read_excel_sheets()}} ..
 
-Function \code{\link[=read_excel_pattern]{read_excel_pattern()}} ..
+The function \code{\link[=read_excel_pattern]{read_excel_pattern()}} ..
 }
 \note{
 The function \link[readxl]{read_excel} returns (a \link[base]{list} of) \link[tibble]{tibble} object(s).
@@ -36,8 +36,7 @@ The function \link[readxl]{read_excel} returns (a \link[base]{list} of) \link[ti
 Name clash \link[officer]{read_xlsx} and \link[readxl]{read_xlsx}.
 
 \CRANpkg{readxl} cannot write to Excel file.  Write to \code{.csv} file instead.
-}
-\references{
+
 \url{https://cran.r-project.org/web/packages/Microsoft365R/vignettes/od_sp.html}
 can access data stored in SharePoint Online sites and OneDrive (personal and business).
 But need to request approval from Jefferson.

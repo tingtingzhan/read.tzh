@@ -11,7 +11,7 @@
 #' @param ... ..
 #' 
 #' @note 
-#' Function \link[data.table]{fread} returns \link[data.table]{data.table} object
+#' The function \link[data.table]{fread} returns \link[data.table]{data.table} object
 #' 
 #' @keywords internal
 #' @importFrom data.table fread
